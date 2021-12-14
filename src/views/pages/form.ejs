@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%-include('../partials/head') %>
+</head>
+
+<body>
+    <header>
+        <%-include('../partials/header') %>
+    </header>
+
+    <main>
+
+        <div class="flexVideoForm">
+
+            <iframe width="900" height="506" src="https://www.youtube.com/embed/2fnPtPmNUzE"
+                title="YouTube video player" frameborder="0" style="border:2"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                class="iframeVideo" allowfullscreen></iframe>
+
+            <form action="mailto:csocin@gmail.com" method="post" enctype="text/plain" id="formulario">
+                <h1 class="formTitle">Envianos tu consulta</h1>
+                <label for="nombre">
+                    <p>Nombre y apellido</p>
+                </label>
+                <input type="text" class="inputForm" name="nombre" placeholder="Ingrese su nombre y apellido.."
+                    id="nombre">
+                <label for="telefono">
+                    <p>Telefono</p>
+                </label>
+                <input type="number" class="inputForm" name="telefono" placeholder="Ingrese su telefono.." id="numero">
+                <label for="email">
+                    <p>Email</p>
+                </label>
+                <input type="email" name="email" class="inputForm" placeholder="adress@example.com" id="email">
+                <label for="mensaje">
+                    <p>Mensaje</p>
+                </label>
+                <textarea name="mensaje" class="textarea" placeholder="Ingrese su consulta.." id="textarea"></textarea>
+                <br>
+                <input type="submit" class="botonVerMas" id="botonVerMas" value="Enviar">
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <%-include('../partials/footer') %>
+    </footer>
+
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,858 @@
+/*Desktop 1536*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./backgroundMain.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgb(231, 231, 231); 
+    font-family: 'Roboto', sans-serif;
+    color: #06046A;
+  }
+  
+  header{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+  }
+  
+  a{
+    text-decoration: none;
+    font-size: 33px;
+    color: #06046A;
+  }
+
+  /*menu hamburguesa*/
+
+  .imgHamburger{
+    width: 30px;
+    height: 30px;
+  }
+
+  .hamburguesa{
+    display: none;
+
+  }
+
+  input{
+    display: none;
+  }
+
+  .submenu_hamburger{
+    display: none;
+  }
+
+  li{
+    list-style: none;
+  }
+/**/
+  
+
+  .contacto{
+      transition: background-color 1000ms;
+  }
+
+  a:hover{
+    text-decoration: underline #06046A solid 2px;; 
+  }
+
+  .contacto:hover {
+    text-decoration: underline #06046A solid 2px;; 
+    background-color: #ebec7e;
+  }
+
+  input:hover {
+    text-decoration: underline #06046A solid 2px;; 
+  }
+  
+  .fondoLago{
+    margin-left: 0;
+    margin-right: 0;
+    width: 100vw;
+    height: 425px;
+    background-image: url("./lago_auto_x2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgb(231, 231, 231); 
+    box-sizing: border-box;
+    padding: 25px 115px 25px 115px;
+  }
+  
+  .logo{
+    border: 5px solid #06046A;
+    width: 250px;
+    height: 260px;
+    border-radius: 5px; 
+  }
+  
+  .navButtons{
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+    padding-left: 15px;
+    margin-bottom: 50px;
+  }
+  
+  .logoSlogan{
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom: 150px;
+  }
+  
+  .logoGrid{
+    grid-column: 1/2;
+  }
+  
+  .slogan{
+    grid-column: 2/5;
+    font-size: 50px;
+    text-align: center;
+    color: #ebec7e;
+    font-weight: bold;
+  }
+
+  .buscador{
+    width: 100%;
+    height: 71px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    font-size: 30px; 
+    color: #06046A;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  select{
+    font-family: 'Roboto', sans-serif;
+    color: #06046A;
+    text-align: center;
+    font-size: 20px;
+    background-color: color rgb(247, 243, 243);
+    width: 246px;
+    height: 56px;
+    border: solid 3px #06046A  ;
+    border-radius: 5px;
+  }
+  
+  .botonBuscar{
+    width: 246px;
+    height: 56px;
+    background-color: #FCFE87;
+    border: solid 3px #06046A ;
+    border-radius: 5px;
+    font-size: 22px;
+    color: #06046A;
+  }
+  
+  .what{
+    color: #0eb347de;
+    font-size: 40px;
+  }
+  
+  .ig{
+    color: #cb2027;
+    font-size: 40px;
+  }
+  
+  .fc{
+    color: #06046A;
+    font-size: 40px;
+  }
+  
+  .lupa{
+    font-size: 20px;
+  }
+  
+  main{
+    padding: 0 115px 0 115px;
+  }
+  
+  h1{
+    border-bottom: 3px solid #06046A;
+    width: 100%;
+    font-size: 33px;
+    color: #4160a5;
+  }
+  
+  article{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 40px;
+  }
+  
+  section{
+    margin-bottom: 50px;
+  }
+  
+  .cardAlquiler{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    border: solid 4px #4160a5;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .cardVenta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    border: solid 4px #4160a5;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #cardCentral{
+    width: 630px;
+    height: 400px;
+  }
+  
+  .botonVerMas{
+    background: #f5f792;
+    font-family: 'Roboto', sans-serif;
+    color: #06046A;
+    border-radius: 5px;
+  }
+  
+  #botonVerMas{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .flexFooter{
+    box-sizing: border-box;
+    padding: 30px 115px 30px 115px;
+    color: rgb(231, 231, 231);
+    background-color: #4160a5;
+    width: 100vw;
+    height: 350px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .navFooter{
+    height: 260px;
+    width: 300px;
+  }
+  
+  .datosFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .matriculasRedes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  
+  .iconFooter{
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  
+  .maps{
+    color: #cb2027;
+  }
+  
+  .iframeMap{
+    border: 5px solid #06046A;
+    width: 250px;
+    height: 260px;
+    border-radius: 5px;
+  }
+  
+  .iframeVideo{
+    width: 50%;
+    height: 600px;
+    border: 4px solid #4160a5;
+    border-radius: 5px;
+  }
+
+  .flexVideoForm{
+    margin-bottom: 50px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .copyright{
+    color: rgb(231, 231, 231);
+    background-color: #2a4b91;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: -20px;
+  }
+
+  form{
+    font-size: 18px;
+    padding-bottom: 20px;
+    width: 50%;
+    border: 4px solid #4160a5;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .formTitle{
+    text-align: center;
+  }
+
+  .inputForm{
+    width: 50%;
+    border: 4px solid #4160a5;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+  .textarea{
+    width: 50%;
+    height: 80px;
+    border: 4px solid #4160a5;
+    border-radius: 5px;
+  }
+  
+  /*Desktop 1388*/
+  
+  @media (max-width: 1388px){
+  
+    header{
+      margin-bottom: 40px;
+    }
+    
+    a{
+      font-size: 26px;
+    }
+    
+    .fondoLago{
+      height: 340px;
+      padding: 20px 92px 50px 92px;
+    }
+    
+    .logo{
+      width: 200px;
+      height: 208px;
+      border-radius: 4px;   
+    }
+    
+    .navButtons{
+      padding-left: 13px;
+      margin-bottom: 40px;
+    }
+  
+    .buscador{
+  
+      width: 100%;
+      height: 57px;
+      border-radius: 4px;
+      margin-bottom: 32px;
+      font-size: 26px; 
+      row-gap: 20px;
+    }
+    
+    select{
+      font-size: 16px;
+      width: 196px;
+      height: 45px;
+      border: solid 3px #06046A  ;
+      border-radius: 4px;
+    }
+    
+    .botonBuscar{
+      width: 196px;
+      height: 45px;
+      border: solid 3px #06046A ;
+      border-radius: 4px;
+      font-size: 18px;
+    }
+    
+    .logoSlogan{
+      padding-left: 8px;
+      margin-bottom: 120px;
+    }
+    
+    .slogan{
+      font-size: 40px;
+    }
+    
+    .what{
+      font-size: 32px;
+    }
+    
+    .ig{
+      font-size: 32px;
+    }
+    
+    .fc{
+      font-size: 32px;
+    }
+    
+    .lupa{
+      font-size: 16px;
+    }
+    
+    main{
+      padding: 0 92px 0 92px;
+    }
+    
+    h1{
+      border-bottom: 2px solid #06046A;
+      width: 100%;
+      font-size: 26px;
+    }
+    
+    article{
+        row-gap: 32px;
+    }
+
+    section{
+      margin-bottom: 40px;
+    }
+    
+    .cardAlquiler{
+      width: 240px;
+      height: 320px;
+      border: solid 3px #4160a5;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    
+    .cardVenta{
+      width: 240px;
+      height: 320px;
+      border: solid 3px #4160a5;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    
+    #cardCentral{
+      width: 504px;
+      height: 320px;
+    }
+    
+    .botonVerMas{
+      border-radius: 4px;
+    }
+    
+    #botonVerMas{
+      font-size: 16px;
+    }
+    
+    .flexFooter{
+      padding: 24px 92px 24px 92px;
+      width: 100vw;
+      height: 280px;
+      font-size: 16px;
+    }
+    
+    .navFooter{
+      height: 208px;
+      width: 240px;
+    }
+  
+    .iconFooter{
+      font-size: 20px;
+      margin-right: 8px;
+    }
+  
+    .iframeMap{
+      border: 4px solid #06046A;
+      width: 200px;
+      height: 208px;
+      border-radius: 4px;
+    }
+
+    .copyright{
+      width: 100vw;
+      height: 40px;
+      display: flex;
+      margin-top: -16px;
+      font-size: 16px;
+    }
+  
+    .queryUno{
+      width: 240px;
+      height: 320px;
+    }
+  
+    .queryUnoCentral{
+      width: 504px;
+      height: 320px;
+    }
+  }
+  
+  /*Tablet*/
+
+  @media (max-width: 855px){
+  
+    header{
+      margin-bottom: 22px;
+    }
+    
+    a{
+      font-size: 15px;
+    }
+    
+    .fondoLago{
+      width: 100vw;
+      height: 194px;
+      padding: 12px 53px 29px 53px;
+    }
+    
+    .logo{
+      width: 114px;
+      height: 119px;
+      border-radius: 2px;   
+      border: 1px solid #06046A ;
+    }
+    
+    .navButtons{
+      padding-left: 7px;
+      margin-bottom: 23px;
+    }
+  
+    .buscador{
+  
+      width: 100%;
+      height: 33px;
+      border-radius: 2px;
+      font-size: 15px; 
+      margin-bottom: 19px;
+      padding: 7px;
+      row-gap: 10px;
+    }
+    
+    select{
+      font-size: 9px;
+      width: 112px;
+      height: 26px;
+      border: solid 2px #06046A  ;
+      border-radius: 2px;
+    }
+    
+    .botonBuscar{
+      width: 112px;
+      height: 26px;
+      border: solid 2px #06046A ;
+      border-radius: 2px;
+      font-size: 10px;
+    }
+    
+    .logoSlogan{
+      padding-left: 5px;
+      margin-bottom: 69px;
+    }
+    
+    .slogan{
+      font-size: 23px;
+    }
+    
+    .what{
+      font-size: 19px;
+    }
+    
+    .ig{
+      font-size: 19px;
+    }
+    
+    .fc{
+      font-size: 19px;
+    }
+    
+    .lupa{
+      font-size: 9px;
+    }
+    
+    main{
+      padding: 0 52px 0 52px;
+    }
+    
+    h1{
+      border-bottom: 1px solid #06046A;
+      width: 100%;
+      font-size: 15px;
+    }
+    
+    article{
+      row-gap: 19px;
+    }
+
+    section{
+      margin-bottom: 23px;
+    }
+    
+    .cardAlquiler{
+      width: 137px;
+      height: 200px;
+      border: solid 2px #4160a5;
+      border-radius: 2px;
+      font-size: 9px;
+    }
+    
+    .cardVenta{
+      width: 137px;
+      height: 200px;
+      border: solid 2px #4160a5;
+      border-radius: 2px;
+      font-size: 9px;
+    }
+    
+    #cardCentral{
+      width: 288px;
+      height: 200px;
+    }
+    
+    .botonVerMas{
+      border-radius: 2px;
+    }
+    
+    #botonVerMas{
+      font-size: 9px;
+    }
+    
+    .flexFooter{
+      padding: 14px 53px 14px 53px;
+      width: 100vw;
+      height: 160px;
+      font-size: 9px;
+
+    }
+    
+    .navFooter{
+      height: 119px;
+      width: 101px;
+    }
+  
+    .iconFooter{
+      font-size: 12px;
+      margin-right: 5px;
+    }
+    
+    .iframeMap{
+      border: 1px solid #06046A;
+      width: 114px;
+      height: 119px;
+      border-radius: 2px;
+    }
+
+    .iframeVideo{
+      width: 100%;
+    }
+
+    form{
+      width: 100%;
+    }
+
+    .flexVideoForm{
+      margin-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+      flex-direction: column-reverse;
+      row-gap: 20px;
+    }
+
+    .copyright{
+      width: 100%;
+      height: 20px;
+      margin-top: -10px;
+      font-size: 9px;
+    }
+  
+    .queryUno{
+      width: 137px;
+      height: 183px;
+    }
+  
+    .queryUnoCentral{
+      width: 288px;
+      height: 183px;
+    }
+    
+  }
+  
+  /*quiebre para ir mejorando ubicacion*/
+
+  @media (max-width: 570px){
+    
+    .navButtons{
+      flex-wrap: wrap;
+    }
+
+    .fondoLago{
+      width: 100vw;
+      height: 200px;
+      padding: 10px 50px 27px 50px;
+    }
+
+    .slogan{
+      font-size: 22px;
+    }
+
+    .flexFooter{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(2,1fr);
+    }
+    
+    .navFooter{
+      grid-row: 1/2;
+      grid-column: 1/2;
+    }
+    
+    .matriculasRedes{
+      grid-column: 2/3;
+    }
+
+    .datosFooter{
+      grid-column: 3/4;
+    }
+
+    .iframeMap{
+      display: none;
+    }
+
+  }
+
+
+  /*Mobile, menu hamburguesa*/
+
+  @media (max-width: 386px) {
+
+    
+
+    .logo{
+      width: 102px;
+      height: 111px;
+    }
+
+    .fondoLago{
+      /*display: grid;
+      grid-template-rows: repeat(2,1fr); 
+      grid-template-columns: repeat(3,1fr);
+      row-gap: 15px;
+      width: 100%;*/
+      height: 170px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row-reverse;
+    }
+
+    .slogan{
+      display: none;
+    }
+
+    .navButtons{
+      display: none;
+    }
+
+    .hamburguesa {
+      display: block;
+      grid-row: 1/2;
+      grid-column: 2/3;
+      justify-self: center;
+    }
+
+    .logoSlogan{
+      grid-row: 2/3;
+      grid-column: 2/3;
+    }
+
+    #hamb:checked + .submenu_hamburger{
+      display: block;
+      position: absolute;
+      text-align: center;
+      
+    }
+
+    .flexFooter{
+      display: grid;
+      grid-template-rows: repeat(2,1fr); 
+      grid-template-columns: repeat(2,1fr);
+      gap: 10px;
+      row-gap: 5px;
+      font-size: 8px;
+      height: 300px;
+    }
+    
+    .navFooter{
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+
+    .matriculasRedes{
+      grid-column: 2/3;
+      grid-row: 1/2;
+    }
+
+    .datosFooter{
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+
+    .buscador{
+      
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(3,1fr);
+      height: 70px;
+      gap: 2px;
+      row-gap: 5px;
+      margin-bottom: 32px;
+    }
+
+    .tipoInmueble{
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+
+    .operacion{
+      grid-column: 2/3;
+      grid-row: 1/2;
+    }
+
+    .ubicacion{
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+    
+    .ambientes{
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
+
+    .botonBuscar{
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
+
+    li{
+      background-color:  rgb(247, 243, 243);;
+    }
+    h1{
+      text-align: center;
+    }
+
+    article{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+  }
